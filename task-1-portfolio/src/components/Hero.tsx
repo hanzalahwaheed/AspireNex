@@ -9,9 +9,9 @@ export default function Hero() {
     <WavyBackground className="max-w-4xl mx-auto">
       <div className="min-h-screen">
         <div className="flex justify-center gap-3 items-center p-5">
-          <Button content="Resume" redirect="https://drive.google.com/file/d/1aWoAiWE8Zhph3uDJQxvnjPDd2Ux2a2hN/view?usp=sharing" />
+          <Button content="Resume" redirect="https://drive.google.com/file/d/1aWoAiWE8Zhph3uDJQxvnjPDd2Ux2a2hN/view?usp=sharing" external />
           <Button content="Projects" redirect="/projects" />
-          <Button content="Contact" redirect="/contact"/>
+          <Button content="Contact" redirect="/contact" />
         </div>
         <div className="mt-60">
           <div className="text-2xl md:text-4xl lg:text-7xl font-bold inter-var text-center text-white">
