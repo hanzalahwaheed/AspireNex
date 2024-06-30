@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import GradientSpan from "../common/GradientSpan";
+import GradientSpan from "../../components/common/GradientSpan";
 import FinEase from "/public/ProjectCovers/FinEase.webp";
 import How2WHanzo from "/public/ProjectCovers/How2WHanzo.webp";
 import ImagineText from "/public/ProjectCovers/ImagineText.webp";
@@ -47,11 +47,11 @@ const Projects = () => {
   ];
 
   return (
-    <div className="w-full overflow-hidden flex flex-col items-center">
-      <h2 className="text-xl md:text-3xl lg:text-5xl text-white font-bold inter-var text-center mb-8">
+    <div className="flex flex-col items-center">
+      <h2 className="text-xl md:text-3xl lg:text-5xl text-white font-bold inter-var text-center mb-8 p-4">
         Some of My <GradientSpan content="Projects" />
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-20 p-4 w-full max-w-7xl ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-20 mb-20">
         {projects.map((project, index) => {
           return (
             <Card
