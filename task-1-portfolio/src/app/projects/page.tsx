@@ -6,6 +6,7 @@ import How2WHanzo from "/public/ProjectCovers/How2WHanzo.webp";
 import ImagineText from "/public/ProjectCovers/ImagineText.webp";
 import NewsNation from "/public/ProjectCovers/NewsNation.webp";
 import URLShorty from "/public/ProjectCovers/URLShorty.webp";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 const Projects = () => {
   const projects = [
@@ -65,6 +66,7 @@ const Projects = () => {
           );
         })}
       </div>
+      <BackgroundBeams />
     </div>
   );
 };
