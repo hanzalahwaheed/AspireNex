@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import SearchBar from "@/components/SearchBar";
+import HeroCarousel from "@/components/HeroCarousel";
+
 const Home = () => {
   return (
     <>
@@ -23,11 +26,13 @@ const Home = () => {
               Powerful, self-serve product and growth analytics to help you
               convert, engage, and retain more.
             </p>
-            SearchBar
+            <SearchBar />
           </div>
-          HeroCarousel
+          <HeroCarousel />
         </div>
       </section>
+
+      {/* Trending Section */}
       <section className="trending-section">
         <h2 className="section-text">Trending</h2>
         <div className="flex flex-wrap gap-x-8 gay-y-16">
