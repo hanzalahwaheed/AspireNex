@@ -25,6 +25,7 @@ const HeroCarousel = () => {
       >
         {heroImages.map((image) => (
           <Image
+            key={image.alt}
             src={image.imgUrl}
             alt={image.alt}
             width={484}
