@@ -1,4 +1,4 @@
-# PriceWise
+# ProductOwl
 ## Tools Used
 - NextJS
 - BrightData

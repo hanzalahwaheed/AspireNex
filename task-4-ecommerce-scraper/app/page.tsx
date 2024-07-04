@@ -22,12 +22,12 @@ const Home = async () => {
               />
             </p>
             <h1 className="head-text">
-              Unleash the Power of{" "}
-              <span className="text-primary">PriceWise</span>
+              Track your <span className="text-primary">Amazon</span> Products
+              with <span className="text-primary">ProductOwl</span>
             </h1>
             <p className="mt-6">
-              Powerful, self-serve product and growth analytics to help you
-              convert, engage, and retain more.
+              Buy stuff and the cheapest rate possible with{" "}
+              <span className="text-red-500">ProductOwl</span>!
             </p>
             <SearchBar />
           </div>
