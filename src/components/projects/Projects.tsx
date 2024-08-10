@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import GradientSpan from "../../components/common/GradientSpan";
+import GradientSpan from "../common/GradientSpan";
 import FinEase from "/public/ProjectCovers/FinEase.webp";
 import How2WHanzo from "/public/ProjectCovers/How2WHanzo.webp";
 import ImagineText from "/public/ProjectCovers/ImagineText.webp";
@@ -48,7 +48,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center" id="projects">
       <h2 className="text-xl md:text-3xl lg:text-5xl text-white font-bold inter-var text-center mb-8 p-4">
         Some of My <GradientSpan content="Projects" />
       </h2>
@@ -66,7 +66,7 @@ const Projects = () => {
           );
         })}
       </div>
-      <BackgroundBeams />
+      {/* <BackgroundBeams /> */}
     </div>
   );
 };

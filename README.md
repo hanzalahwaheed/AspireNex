@@ -1,3 +1,3 @@
-# AspireNex Web Develpoment Assignment
-## Task 1 - Portfolio
-## Task 2 - pending
+Aceternity UI Components Used:
+1. 3D Pin
+2. Wavy Background

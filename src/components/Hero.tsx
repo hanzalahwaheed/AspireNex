@@ -3,14 +3,19 @@ import React from "react";
 import { WavyBackground } from "./ui/wavy-background";
 import Button from "./common/Button";
 import GradientSpan from "./common/GradientSpan";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <WavyBackground className="max-w-4xl mx-auto">
       <div className="min-h-screen">
         <div className="flex justify-center gap-3 items-center p-5">
-          <Button content="Resume" redirect="https://drive.google.com/file/d/1aWoAiWE8Zhph3uDJQxvnjPDd2Ux2a2hN/view?usp=sharing" external />
-          <Button content="Projects" redirect="/projects" />
+          <Button
+            content="Resume"
+            redirect="https://drive.google.com/file/d/1aWoAiWE8Zhph3uDJQxvnjPDd2Ux2a2hN/view?usp=sharing"
+            external
+          />
+          <Button content="Projects" redirect="#projects" />
           <Button content="Contact" redirect="/contact" />
         </div>
         <div className="mt-60">
